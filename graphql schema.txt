@@ -1,0 +1,12 @@
+type Form @model {
+  id: ID!
+  account_id: Int
+  form_id: String
+  form_name: String
+  location: String
+  first_name: String
+  last_name: String
+  email: String
+  phone: String
+  fields: String
+}
